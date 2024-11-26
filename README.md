@@ -30,7 +30,7 @@ This table is used to store user information.
 | `chat_id`            | INT     | The chat ID of the user             |
 | `username`           | VARCHAR | The username of the user            |
 | `name`               | VARCHAR | The full name of the user           |
-| `secret_key`         | VARCHAR | A secret key for user authentication |
+| `secret_key`         | BINARY(32) | A secret key for user authentication |
 | `list_of_block`      | TEXT    | List of blocked users              |
 | `status_to`          | INT     | The user's status (used for specific purposes) |
 | `id`                 | INT     | Unique ID for the record           |
